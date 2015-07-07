@@ -1,5 +1,6 @@
 <?php
 	//Include the database information file
+	echo "Database connection";
 	include('db_information.php');
 	//creating MySQL connection
 	$mysqli = new mysqli($db_host, $db_username, $db_password, $db_name);	
